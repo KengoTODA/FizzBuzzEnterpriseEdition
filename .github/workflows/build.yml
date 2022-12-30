@@ -5,8 +5,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/checkout@v3
-      - use: actions/setup-java@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
         with:
           distribution: microsoft
           java-version: 11
