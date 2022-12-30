@@ -13,3 +13,7 @@ jobs:
           cache: gradle
       - run: |
           ./gradlew build --scan
+      - uses: actions/upload-artifact@v3
+        with:
+          name: reports from Gradle
+          path: build/reports
