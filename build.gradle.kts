@@ -24,6 +24,7 @@ dependencies {
     implementation("org.springframework:spring-context:3.2.13.RELEASE")
     implementation("org.springframework:spring-core:3.2.13.RELEASE")
     implementation("org.springframework:spring-expression:3.2.13.RELEASE")
+    compileOnly("javax.annotation:javax.annotation-api:1.3.2")
 
     testImplementation("junit:junit:4.8.2")
 }
